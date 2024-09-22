@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+    
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/taxesCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SuperButton.Primary"
+            app:cornerRadius="5dp"
+            android:text="税金的计算"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SuperButton.Primary"
+            app:cornerRadius="5dp"
+            android:text="12306登录界面"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/trainNumberInquiry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SuperButton.Primary"
+            app:cornerRadius="5dp"
+            android:text="车次查询列表"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <com.google.android.material.button.MaterialButton
+            android:id="@+id/picturePolling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SuperButton.Primary"
+            app:cornerRadius="5dp"
+            android:text="图片轮询"/>
+
+    <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+</LinearLayout>

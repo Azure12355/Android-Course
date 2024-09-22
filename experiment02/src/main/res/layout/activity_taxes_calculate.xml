@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".component.TaxesCalculateActivity">
+
+    <TableRow tools:ignore="UselessParent">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="应发金额"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:height="30dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="税款"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:height="30dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="实发金额"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:height="30dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+                android:id="@+id/payableAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:inputType="numberDecimal"
+                android:text="0"
+                tools:ignore="LabelFor" />
+        <EditText
+                android:id="@+id/taxes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:inputType="numberDecimal"
+                android:text="0"
+                tools:ignore="LabelFor" />
+        <EditText
+                android:id="@+id/actualAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints=""
+                android:inputType="numberDecimal"
+                android:text="0"
+                tools:ignore="LabelFor" />
+    </TableRow>
+
+</TableLayout>
